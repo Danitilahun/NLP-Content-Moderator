@@ -70,5 +70,3 @@ This pipeline processes raw text input through multiple NLP-based stages to dete
 - **Transparency**: Provide clear user appeals processes and moderation logs.  
 
 ---
-
-For implementation details, refer to the [pipeline architecture diagram](#).  
