@@ -88,6 +88,20 @@ We will prepare the necessary datasets and make them available once they are col
 
 ---
 
+## Data Collection Strategy
+
+To create comprehensive datasets, we will use the following strategies:
+
+- **Transliteration Tool**: We will use the [**Amharic Transliteration Tool**](https://accentgenerator.com/transliteration/english-to-amharic-typing/?utm_source=chatgpt.com#google_vignette) to convert English-written Amharic into proper Amharic text. This tool helps standardize the transcription of Amharic content when it is written in Roman script.
+  
+- **Data Collection from Social Media Platforms**: We will gather data from popular social media platforms where Amharic content is prevalent:
+  - **TikTok**
+  - **Facebook**
+  - **Twitter**
+  - **Telegram**
+
+These platforms provide a wealth of publicly available user-generated content, which will be used to create datasets that are rich in real-world, diverse, and conversational text.
+
 ## Final Notes
 
 - This repository will continue to be updated with new datasets as they become available.
