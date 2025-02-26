@@ -1,10 +1,11 @@
-# NLP Datasets Repository
+# Amharic Text Moderation Datasets
 
 This repository contains a curated list of datasets for various Natural Language Processing (NLP) tasks, including:
 
 - **Named Entity Recognition (NER)**
 - **Text Classification**
 - **Sentiment Analysis**
+- **Topic Classification** *(Upcoming)*
 
 All resource links will be added or updated as new datasets are included.
 
@@ -15,13 +16,13 @@ All resource links will be added or updated as new datasets are included.
 - [Named Entity Recognition (NER)](#named-entity-recognition-ner)
 - [Text Classification](#text-classification)
 - [Sentiment Analysis](#sentiment-analysis)
+- [Topic Classification](#topic-classification)
 
 ---
 
 ## Named Entity Recognition (NER)
 
 Below is a list of datasets available for Named Entity Recognition:
-
 
 1. **Amharic Named Entity Recognition Dataset (Hugging Face)**  
    **Description:** A dataset for Amharic Named Entity Recognition available on Hugging Face. This dataset includes annotated Amharic texts suitable for NER tasks.  
@@ -43,14 +44,12 @@ Below is a list of datasets available for Named Entity Recognition:
 
 Below is a list of datasets available for Text Classification:
 
-1. **Amharic News Text Classification Dataset**  
-   **Description:** A dataset for classifying Amharic news texts into various categories. This dataset is sourced from IsraelAbebe's repository and provides labeled news articles for text classification tasks.  
-   **Link:** [Amharic News Text Classification Dataset](https://github.com/IsraelAbebe/An-Amharic-News-Text-classification-Dataset/tree/main/data)
-
-2. **Amharic News Category Classification Dataset**  
-   **Description:** A dataset hosted on Hugging Face for Amharic news category classification tasks, featuring categorized news articles in Amharic.  
-   **Link:** [Amharic News Category Classification Dataset](https://huggingface.co/datasets/rasyosef/amharic-news-category-classification)
-
+1. **Amharic Hate Speech Classification Dataset**  
+   **Description:** A dataset available on Hugging Face for the classification of Amharic text into hate speech categories, including ethnic, religious, and gender-based hate speech.  
+   **Link:** [Amharic Hate Speech Classification Dataset](https://huggingface.co/datasets/uhhlt/amharichatespeechranlp)
+2. **Hate Speech Detection in Amharic Dataset**  
+   **Description:** A dataset for hate speech detection in Amharic, containing labeled data for identifying harmful content.  
+   **Link:** [Hate Speech Detection in Amharic Dataset](https://github.com/nathyBekele/Hate-Speech-Detection-in-Amharic-Language/tree/main/DataSet)
 *(Add more datasets as needed.)*
 
 ---
@@ -58,7 +57,6 @@ Below is a list of datasets available for Text Classification:
 ## Sentiment Analysis
 
 Below is a list of datasets available for Sentiment Analysis:
-
 
 1. **Amharic Sentiment Dataset**  
    **Description:** A sentiment analysis dataset for the Amharic language, containing labeled sentiment data for various text samples.  
@@ -68,8 +66,46 @@ Below is a list of datasets available for Sentiment Analysis:
    **Description:** A dataset provided as part of the Afrisent Semeval 2023 challenge, containing Amharic language data for sentiment analysis tasks.  
    **Link:** [Afrisent Semeval 2023 Amharic Dataset](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data/amh)
 
-3. **Hate Speech Detection in Amharic Dataset (Modified)**  
-   **Description:** Originally developed for hate speech detection in Amharic, this dataset contains labels such as "free" and "hate". These labels can be remapped to "positive" and "negative" sentiments for further analysis in sentiment processing tasks.  
-   **Link:** [Hate Speech Detection in Amharic Dataset](https://github.com/nathyBekele/Hate-Speech-Detection-in-Amharic-Language/tree/main/DataSet)
+*(Add more datasets as needed.)*
+
+---
+
+## Topic Classification
+
+**Objective**: Automatically assign categories such as Religion, Ethnicity, Politics, etc., to a given text.
+
+**Dataset Requirements**:
+- Currently, no datasets are available for topic classification in Amharic.
+- We plan to create our own dataset for topic classification, which will cover the following categories:
+  - **Religion** (e.g., discussions on faith, doctrine, inter-religious relations).
+  - **Ethnicity** (e.g., historical narratives, ethnic identity topics).
+  - **Politics** (e.g., government, elections, party affiliations).
+  - Other relevant categories (e.g., social issues, gender discussions).
+
+We will prepare the necessary datasets and make them available once they are collected and annotated.
 
 *(Add more datasets as needed.)*
+
+---
+
+## Data Collection Strategy
+
+To create comprehensive datasets, we will use the following strategies:
+
+- **Transliteration Tool**: We will use the [**Amharic Transliteration Tool**](https://accentgenerator.com/transliteration/english-to-amharic-typing/?utm_source=chatgpt.com#google_vignette) to convert English-written Amharic into proper Amharic text. This tool helps standardize the transcription of Amharic content when it is written in Roman script.
+  
+- **Data Collection from Social Media Platforms**: We will gather data from popular social media platforms where Amharic content is prevalent:
+  - **TikTok**
+  - **Facebook**
+  - **Twitter**
+  - **Telegram**
+
+These platforms provide a wealth of publicly available user-generated content, which will be used to create datasets that are rich in real-world, diverse, and conversational text.
+
+## Final Notes
+
+- This repository will continue to be updated with new datasets as they become available.
+- The inclusion of high-quality datasets for each NLP task is crucial for building effective and fair Amharic text moderation models.
+- We encourage contributions from the community, including the creation of new datasets or improvements to existing datasets.
+
+---
