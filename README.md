@@ -38,12 +38,6 @@ The **Amharic Text Moderation** pipeline processes text through multiple stages 
 - **Feedback Loop**: Discusses the feedback mechanism to improve the model over time.  
   [Read Feedback Loop](docs/10_feedback_loop.md)
 
-- **Deployment**: Information on deploying the moderation system in real-world environments.  
-  [Read Deployment](docs/11_deployment.md)
-
-- **Future Improvements**: Outlines potential future improvements for the system.  
-  [Read Future Improvements](docs/12_future_improvements.md)
-
 ---
 
 ## Architecture Diagram

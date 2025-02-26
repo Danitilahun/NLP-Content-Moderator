@@ -12,7 +12,6 @@ This pipeline processes raw text input through multiple NLP-based stages to dete
 ### 1. **Data Preprocessing**  
 - **Tokenization**: Split text into words/tokens.  
 - **Normalization**: Standardize Amharic spellings (e.g., ሀ vs. ኀ).  
-- **Stopword Removal**: Filter common words (e.g., እና, ወደ).
 
 ### 2. **Core NLP Analysis**  
 | Component               | Functionality                                                                 |
