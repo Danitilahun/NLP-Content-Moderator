@@ -5,13 +5,12 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 ---
 
 ### 1. **Sentiment Analysis**
-**Objective**: Classify text as positive, neutral, or hateful.
+**Objective**: Classify text as either positive or hateful.
 
 **Dataset Requirements**:
-- Labeled sentiment scores (e.g., 0: Positive, 1: Neutral, 2: Hateful).
+- Labeled sentiment scores (e.g., 0: Positive, 1: Negative).
 - Balanced representation across different topics (e.g., Politics, Religion, Ethnicity).
 - Diverse text sources (e.g., social media, forums, news comments) to prevent bias.
-- **Fine-grained labels (optional)**: Very Positive, Slightly Positive, Neutral, Slightly Negative, Very Negative.
 
 ---
 
