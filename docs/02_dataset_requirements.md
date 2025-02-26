@@ -21,7 +21,7 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 - Annotated dataset with entity types:
   - **Person Names** (e.g., "ደብረጽዮን", "አብይ")
   - **Ethnic Groups** (e.g., "ኦሮሞ", "አማራ", "ትግራይ")
-  - **Religious Terms** (e.g., "ኦርቶዶክስ", "ሙስሊም", "አድባራ")
+  - **Religious Terms** (e.g., "ኦርቶዶክስ", "ሙስሊም")
   - **Political Terms** (e.g., "TPLF", "PP", "OLF")
   - **Geographical Locations** (e.g., "አዲስ አበባ", "ባህር ዳር", "ሐረር")
 - High annotation quality to reduce false positives/negatives.
