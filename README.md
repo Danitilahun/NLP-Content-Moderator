@@ -23,21 +23,11 @@ The **Amharic Text Moderation** pipeline processes text through multiple stages 
 - **Model Selection**: Criteria and suggestions for selecting appropriate models for sentiment analysis, entity recognition, and more.  
   [Read Model Selection](docs/05_model_selection.md)
 
-- **Model Training**: Insights into training models for the task of text moderation in Amharic.  
-  [Read Model Training](docs/06_model_training.md)
-
 - **Pipeline Architecture**: A detailed explanation of the system architecture and its components.  
-  [Read Pipeline Architecture](docs/07_pipeline_architecture.md)
+  [Read Pipeline Architecture](docs/06_pipeline_architecture.md)
 
 - **Decision Engine**: Describes the logic used to determine moderation decisions.  
-  [Read Decision Engine](docs/08_decision_engine.md)
-
-- **Evaluation Metrics**: Evaluation criteria to assess the effectiveness of the moderation system.  
-  [Read Evaluation Metrics](docs/09_evaluation_metrics.md)
-
-- **Feedback Loop**: Discusses the feedback mechanism to improve the model over time.  
-  [Read Feedback Loop](docs/10_feedback_loop.md)
-
+  [Read Decision Engine](docs/07_decision_engine.md)
 ---
 
 ## Architecture Diagram
