@@ -5,19 +5,19 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 ---
 
 ### 1. **Sentiment Analysis**
-**Objective**: Classify text as either positive or negative.
+**Objective:** Classify text as either positive or negative.
 
-**Dataset Requirements**:
-- Labeled sentiment scores (e.g., 0: Positive, 1: Negative).
+**Dataset Requirements:**
+- Labeled sentiment scores (e.g., 1: Positive, 0: Negative).
 - Balanced representation across different topics (e.g., Politics, Religion, Ethnicity).
 - Diverse text sources (e.g., social media, forums, news comments) to prevent bias.
 
 ---
 
 ### 2. **Entity Recognition (NER)**
-**Objective**: Identify sensitive entities such as personal names, locations, and ethnic groups.
+**Objective:** Identify sensitive entities such as personal names, locations, and ethnic groups.
 
-**Dataset Requirements**:
+**Dataset Requirements:**
 - Annotated dataset with entity types:
   - **Person Names** (e.g., "ደብረጽዮን", "አብይ")
   - **Ethnic Groups** (e.g., "ኦሮሞ", "አማራ", "ትግራይ")
@@ -30,28 +30,28 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 ---
 
 ### 3. **Text Classification**
-**Objective**: Categorize text into multiple moderation categories.
+**Objective:** Categorize text into multiple moderation categories.
 
-**Dataset Requirements**:
+**Dataset Requirements:**
 - Multi-label dataset covering:
-  - **Hate Speech** (e.g., ethnic, religious, gender-based hate speech).
-  - **Cyberbullying** (e.g., insults, threats, personal attacks).
-  - **Explicit Content** (e.g., sexual, violent, extremist language).
+  - **Hate Speech:** Content that incites hatred towards individuals or groups.
+  - **Offense:** Insulting or disrespectful content that does not rise to the level of hate speech.
+  - **Benign:** Non-harmful content.
 - Diverse representation across age groups, political affiliations, and gender identities.
 - Balanced dataset to avoid model bias (equal number of samples across categories).
 
 ---
 
-### 4. **Topic Classification (New Requirement)**
-**Objective**: Automatically assign categories such as Religion, Ethnicity, Politics, etc. to a given text.
+### 4. **Topic Classification**
+**Objective:** Automatically assign categories to text based on its content.
 
-**Dataset Requirements**:
-- Annotated dataset with topic labels:
-  - **Religion** (e.g., discussions on faith, doctrine, inter-religious relations).
-  - **Ethnicity** (e.g., historical narratives, ethnic identity topics).
-  - **Politics** (e.g., government, elections, party affiliations).
-  - Other relevant categories (e.g., social issues, gender discussions).
-- **Multi-class classification** (each text can belong to one or more topics).
+**Dataset Requirements:**
+- Annotated dataset with topic labels such as:
+  - **Politics:** Election debates, policy discussions.
+  - **Ethnicity:** Identity issues, tribal conflicts.
+  - **Religion:** Interfaith dialogues, religious practices.
+  - **General:** Content that does not specifically fall into Politics, Ethnicity, or Religion (e.g., social issues, lifestyle topics).
+- **Multi-class classification:** Each text can belong to one or more topics.
 - Data diversity: Sourced from news articles, social media, blogs, and forums.
 
 ---
@@ -61,4 +61,4 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 - Balanced data distribution is necessary to prevent models from being skewed toward certain groups.
 - Periodic dataset updates (e.g., new slang terms, political changes) should be incorporated to maintain relevance.
 
-This dataset strategy ensures that our Amharic text moderation accurately identifies harmful content while minimizing false positives and unintended censorship. 🚀
+This dataset strategy ensures that our Amharic text moderation pipeline accurately identifies harmful content while minimizing false positives and unintended censorship. 🚀

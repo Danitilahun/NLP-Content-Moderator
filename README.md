@@ -34,7 +34,7 @@ The **Amharic Text Moderation** pipeline processes text through multiple stages 
 
 Here is the high-level architecture of the Amharic text moderation pipeline:
 
-![Text Moderation Pipeline](/Diagram/RLLTZ-Cq57tthxYAj6YgRSKm2n8QQT3sezLADAlIj824qCfrRXDJnmwsCxiHudtWcMVUu0t-K_y9jaEoIJHzQ5hxdFjnZg_psbYgRLK8GYot0c5Uv5Hp1WVyO25MAMfgkPAmuoKABf6GqX4uuoML5gAZGHq1DN0Shk-eHlVSAUE-j69eZ6g0kzrk28tHq.png)  
+![Text Moderation Pipeline](/Diagram/RLNTZkCq5BxtKnn5MZGL7J7CWeH66hJzQLc9Tgdw0qW8hLpdD35rx60xiriXxWiy0XBYYXi4T-pxz4quTYRPj9gRoSJvllFpVUUuBvpdrbU5ObvwXJ0eScwbW3M-zJ0tALhkfT6ma2KggP6nal1Io99h3yd6eKs0EzYSdo-uHNekZAC_r.png)  
 *The pipeline processes raw text input to detect harmful content across multiple stages.*
 
 ---
