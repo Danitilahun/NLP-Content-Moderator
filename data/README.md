@@ -56,16 +56,24 @@ Below is a list of datasets available for Text Classification:
 
 ## Sentiment Analysis
 
-Below is a list of datasets available for Sentiment Analysis:
+Below is an updated list of datasets available for Sentiment Analysis:
 
 1. **Amharic Sentiment Dataset**  
-   **Description:** A sentiment analysis dataset for the Amharic language, containing labeled sentiment data for various text samples.  
-   **Link:** [Amharic Sentiment Dataset](https://huggingface.co/datasets/rasyosef/amharic-sentiment)
+	**Description:** A sentiment analysis dataset for the Amharic language, containing labeled sentiment data for various text samples.  
+	**Link:** [Amharic Sentiment Dataset](https://huggingface.co/datasets/rasyosef/amharic-sentiment)
 
 2. **Afrisent Semeval 2023 Amharic Dataset**  
-   **Description:** A dataset provided as part of the Afrisent Semeval 2023 challenge, containing Amharic language data for sentiment analysis tasks.  
-   **Link:** [Afrisent Semeval 2023 Amharic Dataset](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data/amh)
+	**Description:** A dataset provided as part of the Afrisent Semeval 2023 challenge, containing Amharic language data for sentiment analysis tasks.  
+	**Link:** [Afrisent Semeval 2023 Amharic Dataset](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data/amh)
 
+3. **Masakhane AfriSenti**  
+	**Description:** A Twitter sentiment analysis benchmark for multiple African languages (including Amharic), curated by the Masakhane community.  
+	**Link:** [Masakhane AfriSenti](https://huggingface.co/datasets/masakhane/afrisenti)
+
+4. **Amharic Word-Level Sentiment Dataset (Kaggle)**  
+	**Description:** A dataset for word-level sentiment analysis in Amharic available on Kaggle.  
+	**Link:** [Amharic Word-Level Sentiment Dataset](https://www.kaggle.com/datasets/seidissamohamed/amharic-word-level-sentiment-dataset/code)
+   
 *(Add more datasets as needed.)*
 
 ---
