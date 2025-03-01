@@ -42,14 +42,28 @@ Below is a list of datasets available for Named Entity Recognition:
 
 ## Text Classification
 
-Below is a list of datasets available for Text Classification:
+Below is the updated list of datasets available for Text Classification in Amharic:
 
 1. **Amharic Hate Speech Classification Dataset**  
-   **Description:** A dataset available on Hugging Face for the classification of Amharic text into hate speech categories, including ethnic, religious, and gender-based hate speech.  
-   **Link:** [Amharic Hate Speech Classification Dataset](https://huggingface.co/datasets/uhhlt/amharichatespeechranlp)
+	**Description:** A dataset available on Hugging Face for the classification of Amharic text into hate speech categories, including ethnic, religious, and gender-based hate speech.  
+	**Link:** [Amharic Hate Speech Classification Dataset](https://huggingface.co/datasets/uhhlt/amharichatespeechranlp)
+
 2. **Hate Speech Detection in Amharic Dataset**  
-   **Description:** A dataset for hate speech detection in Amharic, containing labeled data for identifying harmful content.  
-   **Link:** [Hate Speech Detection in Amharic Dataset](https://github.com/nathyBekele/Hate-Speech-Detection-in-Amharic-Language/tree/main/DataSet)
+	**Description:** A dataset for hate speech detection in Amharic, containing labeled data for identifying harmful content.  
+	**Link:** [Hate Speech Detection in Amharic Dataset](https://github.com/nathyBekele/Hate-Speech-Detection-in-Amharic-Language/tree/main/DataSet)
+
+3. **Amharic Offensive/Hate Speech Detection (Zenodo)**  
+	**Description:** This dataset, hosted on Zenodo, provides labeled Amharic text for offensive or hate speech detection tasks.  
+	**Link:** [Zenodo Record 5036437](https://zenodo.org/records/5036437)
+
+4. **Amharic Offensive/Hate Speech Detection (Mendeley)**  
+	**Description:** This Mendeley dataset contains labeled Amharic text for offensive or hate speech detection.  
+	**Link:** [Mendeley Dataset](https://data.mendeley.com/datasets/gw3fdtw5v7/2)
+
+5. **Amharic Hate Speech Data (RANLP 2023)**  
+	**Description:** A dataset from the RANLP 2023 conference, containing Amharic hate speech data for text classification tasks.  
+	**Link:** [RANLP 2023 Dataset](https://github.com/uhh-lt/AmharicHateSpeech/blob/main/Data/RANLP2023/train.csv)
+   
 *(Add more datasets as needed.)*
 
 ---
