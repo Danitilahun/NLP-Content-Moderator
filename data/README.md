@@ -63,6 +63,10 @@ Below is the updated list of datasets available for Text Classification in Amhar
 5. **Amharic Hate Speech Data (RANLP 2023)**  
 	**Description:** A dataset from the RANLP 2023 conference, containing Amharic hate speech data for text classification tasks.  
 	**Link:** [RANLP 2023 Dataset](https://github.com/uhh-lt/AmharicHateSpeech/blob/main/Data/RANLP2023/train.csv)
+
+6. **Amharic Hate Speech Data (Updated Posts)**  
+	**Description:** A GitHub repository containing updated Amharic text data labeled for hate speech detection.  
+	**Link:** [Updated Posts](https://github.com/Usmaelabdureman/hate-speech-api/blob/main/data/updated_posts.txt)
    
 *(Add more datasets as needed.)*
 
