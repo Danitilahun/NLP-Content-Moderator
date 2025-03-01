@@ -42,21 +42,40 @@ Below is a list of datasets available for Named Entity Recognition:
 
 ## Text Classification
 
-Below is a list of datasets available for Text Classification:
+Below is the updated list of datasets available for Text Classification in Amharic:
 
 1. **Amharic Hate Speech Classification Dataset**  
    **Description:** A dataset available on Hugging Face for the classification of Amharic text into hate speech categories, including ethnic, religious, and gender-based hate speech.  
    **Link:** [Amharic Hate Speech Classification Dataset](https://huggingface.co/datasets/uhhlt/amharichatespeechranlp)
+
 2. **Hate Speech Detection in Amharic Dataset**  
    **Description:** A dataset for hate speech detection in Amharic, containing labeled data for identifying harmful content.  
    **Link:** [Hate Speech Detection in Amharic Dataset](https://github.com/nathyBekele/Hate-Speech-Detection-in-Amharic-Language/tree/main/DataSet)
+
+3. **Amharic Offensive/Hate Speech Detection (Zenodo)**  
+   **Description:** This dataset, hosted on Zenodo, provides labeled Amharic text for offensive or hate speech detection tasks.  
+   **Link:** [Zenodo Record 5036437](https://zenodo.org/records/5036437)
+
+4. **Amharic Offensive/Hate Speech Detection (Mendeley)**  
+   **Description:** This Mendeley dataset contains labeled Amharic text for offensive or hate speech detection.  
+   **Link:** [Mendeley Dataset](https://data.mendeley.com/datasets/gw3fdtw5v7/2)
+
+5. **Amharic Hate Speech Data (RANLP 2023)**  
+   **Description:** A dataset from the RANLP 2023 conference, containing Amharic hate speech data for text classification tasks.  
+   **Link:** [RANLP 2023 Dataset](https://github.com/uhh-lt/AmharicHateSpeech/blob/main/Data/RANLP2023/train.csv)
+
+6. **Amharic Hate Speech Data (Updated Posts)**  
+   **Description:** A GitHub repository containing updated Amharic text data labeled for hate speech detection.  
+   **Link:** [Updated Posts](https://github.com/Usmaelabdureman/hate-speech-api/blob/main/data/updated_posts.txt)
+   
 *(Add more datasets as needed.)*
 
 ---
 
 ## Sentiment Analysis
 
-Below is a list of datasets available for Sentiment Analysis:
+
+Here is the updated list of available datasets for Sentiment Analysis in Amharic:
 
 1. **Amharic Sentiment Dataset**  
    **Description:** A sentiment analysis dataset for the Amharic language, containing labeled sentiment data for various text samples.  
@@ -66,6 +85,18 @@ Below is a list of datasets available for Sentiment Analysis:
    **Description:** A dataset provided as part of the Afrisent Semeval 2023 challenge, containing Amharic language data for sentiment analysis tasks.  
    **Link:** [Afrisent Semeval 2023 Amharic Dataset](https://github.com/afrisenti-semeval/afrisent-semeval-2023/tree/main/data/amh)
 
+3. **Masakhane AfriSenti**  
+   **Description:** A Twitter sentiment analysis benchmark for multiple African languages (including Amharic), curated by the Masakhane community.  
+   **Link:** [Masakhane AfriSenti](https://huggingface.co/datasets/masakhane/afrisenti)
+
+4. **Amharic Word-Level Sentiment Dataset (Kaggle)**  
+   **Description:** A dataset for word-level sentiment analysis in Amharic available on Kaggle.  
+   **Link:** [Amharic Word-Level Sentiment Dataset](https://www.kaggle.com/datasets/seidissamohamed/amharic-word-level-sentiment-dataset/code)
+
+5. **Amharic YouTube Comments Sentiment**  
+   **Description:** This dataset focuses on Amharic comments extracted from YouTube, labeled for sentiment analysis tasks (positive, negative, neutral).  
+   **Link:** [Amharic YouTube Comments Sentiment Dataset](https://www.kaggle.com/datasets/mulukensholaye/amharic-youtube-comments-sentiment)
+   
 *(Add more datasets as needed.)*
 
 ---

@@ -71,6 +71,10 @@ Below is the updated list of datasets available for Text Classification in Amhar
 *(Add more datasets as needed.)*
 
 ---
+
+## Sentiment Analysis
+
+
 Here is the updated list of available datasets for Sentiment Analysis in Amharic:
 
 1. **Amharic Sentiment Dataset**  

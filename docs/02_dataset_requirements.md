@@ -5,10 +5,10 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 ---
 
 ### 1. **Sentiment Analysis**
-**Objective:** Classify text as either positive or negative.
+**Objective:** Classify text as **Positive**, **Negative**, or **Neutral**.
 
 **Dataset Requirements:**
-- Labeled sentiment scores (e.g., 1: Positive, 0: Negative).
+- Labeled sentiment scores (e.g., 1: Positive, -1: Negative, 0: Neutral).
 - Balanced representation across different topics (e.g., Politics, Religion, Ethnicity).
 - Diverse text sources (e.g., social media, forums, news comments) to prevent bias.
 
@@ -19,11 +19,11 @@ To ensure high accuracy and fairness in Amharic text moderation, we require high
 
 **Dataset Requirements:**
 - Annotated dataset with entity types:
-  - **Person Names** (e.g., "ደብረጽዮን", "አብይ")
-  - **Ethnic Groups** (e.g., "ኦሮሞ", "አማራ", "ትግራይ")
-  - **Religious Terms** (e.g., "ኦርቶዶክስ", "ሙስሊም")
-  - **Political Terms** (e.g., "TPLF", "PP", "OLF")
-  - **Geographical Locations** (e.g., "አዲስ አበባ", "ባህር ዳር", "ሐረር")
+	- **Person Names** (e.g., "ደብረጽዮን", "አብይ")
+	- **Ethnic Groups** (e.g., "ኦሮሞ", "አማራ", "ትግራይ")
+	- **Religious Terms** (e.g., "ኦርቶዶክስ", "ሙስሊም")
+	- **Political Terms** (e.g., "TPLF", "PP", "OLF")
+	- **Geographical Locations** (e.g., "አዲስ አበባ", "ባህር ዳር", "ሐረር")
 - High annotation quality to reduce false positives/negatives.
 - Context-aware labeling (e.g., distinguishing “ትግራይ” as an ethnic group vs. a region).
 
