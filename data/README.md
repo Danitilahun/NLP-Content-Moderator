@@ -53,10 +53,7 @@ Below is a list of datasets available for Text Classification:
 *(Add more datasets as needed.)*
 
 ---
-
-## Sentiment Analysis
-
-Below is an updated list of datasets available for Sentiment Analysis:
+Here is the updated list of available datasets for Sentiment Analysis in Amharic:
 
 1. **Amharic Sentiment Dataset**  
 	**Description:** A sentiment analysis dataset for the Amharic language, containing labeled sentiment data for various text samples.  
@@ -73,6 +70,10 @@ Below is an updated list of datasets available for Sentiment Analysis:
 4. **Amharic Word-Level Sentiment Dataset (Kaggle)**  
 	**Description:** A dataset for word-level sentiment analysis in Amharic available on Kaggle.  
 	**Link:** [Amharic Word-Level Sentiment Dataset](https://www.kaggle.com/datasets/seidissamohamed/amharic-word-level-sentiment-dataset/code)
+
+5. **Amharic YouTube Comments Sentiment**  
+	**Description:** This dataset focuses on Amharic comments extracted from YouTube, labeled for sentiment analysis tasks (positive, negative, neutral).  
+	**Link:** [Amharic YouTube Comments Sentiment Dataset](https://www.kaggle.com/datasets/mulukensholaye/amharic-youtube-comments-sentiment)
    
 *(Add more datasets as needed.)*
 
