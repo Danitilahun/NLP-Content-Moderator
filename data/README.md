@@ -17,6 +17,7 @@ All resource links will be added or updated as new datasets are included.
 - [Text Classification](#text-classification)
 - [Sentiment Analysis](#sentiment-analysis)
 - [Topic Classification](#topic-classification)
+- [Data Collection Strategy](#data-collection-strategy)
 
 ---
 
@@ -25,16 +26,16 @@ All resource links will be added or updated as new datasets are included.
 Below is a list of datasets available for Named Entity Recognition:
 
 1. **Amharic Named Entity Recognition Dataset (Hugging Face)**  
-   **Description:** A dataset for Amharic Named Entity Recognition available on Hugging Face. This dataset includes annotated Amharic texts suitable for NER tasks.  
-   **Link:** [Amharic NER Dataset](https://huggingface.co/datasets/rasyosef/amharic-named-entity-recognition)
+	**Description:** A dataset for Amharic Named Entity Recognition available on Hugging Face. This dataset includes annotated Amharic texts suitable for NER tasks.  
+	**Link:** [Amharic NER Dataset](https://huggingface.co/datasets/rasyosef/amharic-named-entity-recognition)
 
 2. **Masakhane NER Amharic Train Data**  
-   **Description:** The training data for Amharic NER from the Masakhane NER project. This file contains annotated text data for Named Entity Recognition tasks in Amharic.  
-   **Link:** [Masakhane NER Amharic Train Data](https://github.com/masakhane-io/masakhane-ner/blob/main/data/amh/train.txt)
+	**Description:** The training data for Amharic NER from the Masakhane NER project. This file contains annotated text data for Named Entity Recognition tasks in Amharic.  
+	**Link:** [Masakhane NER Amharic Train Data](https://github.com/masakhane-io/masakhane-ner/blob/main/data/amh/train.txt)
 
 3. **ANEC: An Amharic Named Entity Corpus**  
-   **Description:** An Amharic Named Entity Corpus provided by Ebrahimc on GitHub, containing annotated Amharic named entities for NER tasks.  
-   **Link:** [ANEC: An Amharic Named Entity Corpus](https://github.com/Ebrahimc/ANEC-An-Amharic-Named-Entity-Corpus-/blob/main/Amharic%20NER%20Corpus.txt)
+	**Description:** An Amharic Named Entity Corpus provided by Ebrahimc on GitHub, containing annotated Amharic named entities for NER tasks.  
+	**Link:** [ANEC: An Amharic Named Entity Corpus](https://github.com/Ebrahimc/ANEC-An-Amharic-Named-Entity-Corpus-/blob/main/Amharic%20NER%20Corpus.txt)
 
 *(Add more datasets as needed.)*
 
@@ -67,13 +68,12 @@ Below is the updated list of datasets available for Text Classification in Amhar
 6. **Amharic Hate Speech Data (Updated Posts)**  
 	**Description:** A GitHub repository containing updated Amharic text data labeled for hate speech detection.  
 	**Link:** [Updated Posts](https://github.com/Usmaelabdureman/hate-speech-api/blob/main/data/updated_posts.txt)
-   
+
 *(Add more datasets as needed.)*
 
 ---
 
 ## Sentiment Analysis
-
 
 Here is the updated list of available datasets for Sentiment Analysis in Amharic:
 
@@ -96,7 +96,7 @@ Here is the updated list of available datasets for Sentiment Analysis in Amharic
 5. **Amharic YouTube Comments Sentiment**  
 	**Description:** This dataset focuses on Amharic comments extracted from YouTube, labeled for sentiment analysis tasks (positive, negative, neutral).  
 	**Link:** [Amharic YouTube Comments Sentiment Dataset](https://www.kaggle.com/datasets/mulukensholaye/amharic-youtube-comments-sentiment)
-   
+
 *(Add more datasets as needed.)*
 
 ---
@@ -124,14 +124,19 @@ We will prepare the necessary datasets and make them available once they are col
 To create comprehensive datasets, we will use the following strategies:
 
 - **Transliteration Tool**: We will use the [**Amharic Transliteration Tool**](https://accentgenerator.com/transliteration/english-to-amharic-typing/?utm_source=chatgpt.com#google_vignette) to convert English-written Amharic into proper Amharic text. This tool helps standardize the transcription of Amharic content when it is written in Roman script.
-  
-- **Data Collection from Social Media Platforms**: We will gather data from popular social media platforms where Amharic content is prevalent:
-  - **TikTok**
-  - **Facebook**
-  - **Twitter**
-  - **Telegram**
 
-These platforms provide a wealth of publicly available user-generated content, which will be used to create datasets that are rich in real-world, diverse, and conversational text.
+- **Data Collection from Social Media Platforms**: We will gather data from popular social media platforms where Amharic content is prevalent:
+	- **TikTok**
+	- **Facebook**
+	- **Twitter**
+	- **Telegram**
+
+- **Additional Tools & Prompts**: We may utilize various prompt-generation or AI-studio tools to facilitate data collection and annotation. For instance, we can explore the following link for generating or organizing AI-related prompts:
+	- [**AI Studio New Chat**](https://aistudio.google.com/prompts/new_chat)
+
+These platforms and tools provide a wealth of publicly available user-generated content, which will be used to create datasets that are rich in real-world, diverse, and conversational text.
+
+---
 
 ## Final Notes
 
